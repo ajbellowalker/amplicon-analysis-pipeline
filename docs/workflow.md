@@ -1,4 +1,5 @@
-### Bash workflow
+# Bash workflow
+```bash
 pwd
 
 conda env create -n qiime2-amplicon-2024.10 --file https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2024.10-py310-osx-conda.yml
@@ -150,8 +151,10 @@ biom convert \
   -i table_export/feature-table.biom \
   -o table_export/feature-table.tsv \
   --to-tsv
+```
 
-### R workflow
+# R workflow
+```R
 install.packages("vegan")  
 install.packages("readr")
 install.packages("BiocManager")
@@ -511,4 +514,5 @@ summary(model_alpha)
 aov_shannon <- aov(Shannon ~ Starch * Silage + Timepoint, data = alpha_df)
 summary(aov_shannon)
 TukeyHSD(aov_shannon)
-
+```
+<img width="451" height="694" alt="image" src="https://github.com/user-attachments/assets/c03eeaec-e757-40ce-96bd-853ec7453aff" />
