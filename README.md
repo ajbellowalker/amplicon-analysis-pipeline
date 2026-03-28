@@ -1,3 +1,15 @@
+![QIIME2](https://img.shields.io/badge/workflow-QIIME2-blue)
+![R](https://img.shields.io/badge/env-R-green)
+![License](https://img.shields.io/badge/license-MIT-yellow)
+
+## 🚀 Quick Start
+
+```bash
+# Clone repo
+git clone https://github.com/ajbellowalker/amplicon-analysis-pipeline
+cd amplicon-analysis-pipeline
+```
+
 # Amplicon Analysis Pipeline (QIIME2 + R)
 
 ## Overview
