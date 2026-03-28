@@ -10,12 +10,12 @@ git clone https://github.com/ajbellowalker/amplicon-analysis-pipeline
 cd amplicon-analysis-pipeline
 ```
 
-# Amplicon Analysis Pipeline (QIIME2 + R)
+# 🧬 Amplicon Analysis Pipeline (QIIME2 + R)
 
-## Overview
+## 🔄 Overview
 This repository contains a 16S rRNA amplicon sequencing analysis workflow using QIIME2 for sequence processing and R for statistical analysis. The pipeline was applied to rumen epimural microbiome samples and includes diversity analysis, taxonomic profiling, and differential abundance testing.
 
-## Key Features
+## 🚀 Key Features
 - Data import and preprocessing
 - Denoising using DADA2
 - Feature table construction
@@ -27,13 +27,13 @@ This repository contains a 16S rRNA amplicon sequencing analysis workflow using 
 - Differential abundance analysis using DESeq2
 - Phyloseq-based microbiome analysis
 
-## Tech Stack
+## 📦 Tech Stack
 - QIIME2
 - DADA2
 - SILVA database
 - R (phyloseq, DESeq2, vegan, ggplot2)
 
-## Repository Structure
+## 🧱 Repository Structure
 ├── scripts/  
 ├── r/  
 ├── docs/  
@@ -41,7 +41,7 @@ This repository contains a 16S rRNA amplicon sequencing analysis workflow using 
 ├── examples/  
 └── assets/  
 
-## Pipeline Workflow
+## ▶️ Pipeline Workflow
 
 ### 1. Environment Setup
 ```bash
@@ -113,7 +113,7 @@ Includes:
 -	Alpha diversity modelling 
 -	Taxonomic enrichment analysis
 
-## Key Outputs
+## 📊 Key Outputs
 -	ASV table 
 -	Taxonomy assignments 
 -	Diversity metrics 
@@ -121,16 +121,21 @@ Includes:
 -	Differential abundance results 
 -	Publication-ready figures
 
-## Reproducibility
+## 🔄 Reproducibility
 -	Fully script-based workflow 
 -	Standard QIIME2 pipeline 
 -	Reproducible statistical analysis in R
 
-## Notes
+## ⚠️ Notes
 -	Raw FASTQ files are not included 
 -	Metadata format is provided as example 
 -	File paths adapted for portability
 
-## Author
+## 🧑‍💻 Author
+
 Ayemere J. Bellowalker  
-PhD Researcher – Microbial Genomics & Bioinformatics
+Bioinformatics | Microbiome | Computational Biology
+
+## 📄 License
+
+MIT
