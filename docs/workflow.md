@@ -515,4 +515,3 @@ aov_shannon <- aov(Shannon ~ Starch * Silage + Timepoint, data = alpha_df)
 summary(aov_shannon)
 TukeyHSD(aov_shannon)
 ```
-<img width="451" height="694" alt="image" src="https://github.com/user-attachments/assets/c03eeaec-e757-40ce-96bd-853ec7453aff" />
