@@ -136,6 +136,9 @@ Includes:
 Ayemere J. Bellowalker  
 Bioinformatics | Microbiome | Computational Biology
 
+GitHub: <https://github.com/ajbellowalker>
+
 ## 📄 License
 
 MIT
+
